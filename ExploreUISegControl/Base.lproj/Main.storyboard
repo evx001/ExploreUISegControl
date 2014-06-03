@@ -22,7 +22,7 @@
                                 <segments>
                                     <segment title="Seg1"/>
                                     <segment title="Seg2"/>
-                                    <segment title=""/>
+                                    <segment title="Seg3"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
