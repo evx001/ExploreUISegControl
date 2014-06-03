@@ -15,6 +15,7 @@
 
 @implementation EVXViewController
 - (IBAction)segCntrlValChange:(id)sender {
+    NSLog(@"SegmentTouched!"); 
     // valureChanged is the expected default
     // the control is being passed in through the sender property
 //    UISegmentedControl *ctrl = (UISegmentedControl *)sender;
