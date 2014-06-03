@@ -10,19 +10,11 @@
 
 @interface EVXViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *segLabelOutput;
-switch (<#expression#>) {
-  case <#constant#>:
-    <#statements#>
-    break;
 
-  default:
-    break;
-}
 @end
 
 @implementation EVXViewController
-- (IBAction)segControlForLabel:(id)sender {
-    
+- (IBAction)segCntrlValChange:(id)sender {
 }
 
 - (void)viewDidLoad

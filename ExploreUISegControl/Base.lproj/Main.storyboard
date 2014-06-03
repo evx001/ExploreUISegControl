@@ -25,6 +25,7 @@
                                     <segment title="Seg3"/>
                                 </segments>
                                 <connections>
+                                    <action selector="segCntrlValChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="5fh-Si-WVz"/>
                                     <action selector="segControlForLabel:" destination="vXZ-lx-hvc" eventType="valueChanged" id="yW0-9j-jiY"/>
                                 </connections>
                             </segmentedControl>
