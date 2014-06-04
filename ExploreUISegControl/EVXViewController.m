@@ -9,10 +9,13 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
 @implementation EVXViewController
+- (IBAction)myValChangeSeg:(UISegmentedControl *)sender {
+}
 
 - (void)viewDidLoad
 {
