@@ -14,7 +14,19 @@
 @end
 
 @implementation EVXViewController
-- (IBAction)myValChangeSeg:(UISegmentedControl *)sender {
+// note could change to :(id)sender
+- (IBAction)myValChangeSeg:(UISegmentedControl *)sender
+{
+    UISegmentedControl *ctrl = (UISegmentedControl *)sender;
+switch ([ctrl selectedSegmentIndex])
+    {
+  case 0:
+    self.myLabel.text =@"Seg1";
+    break;
+            case 1:
+            self.myLabel.text=@"Seg2";
+            break;
+}
     
 }
 
