@@ -15,6 +15,7 @@
 
 @implementation EVXViewController
 - (IBAction)myValChangeSeg:(UISegmentedControl *)sender {
+    
 }
 
 - (void)viewDidLoad
