@@ -26,8 +26,12 @@ switch ([ctrl selectedSegmentIndex])
             case 1:
             self.myLabel.text=@"Seg2";
             break;
+        case 2:
+            self.myLabel.text=@"Seg3";
+            break;
+
 }
-    
+
 }
 
 - (void)viewDidLoad
