@@ -9,11 +9,26 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
+<<<<<<< HEAD
+@property (weak, nonatomic) IBOutlet UILabel *segLabelOutput;
+switch (<#expression#>) {
+  case <#constant#>:
+    <#statements#>
+    break;
+=======
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+>>>>>>> beta001
 
+  default:
+    break;
+}
 @end
 
 @implementation EVXViewController
+<<<<<<< HEAD
+- (IBAction)segControlForLabel:(id)sender {
+    
+=======
 // note could change to :(id)sender
 - (IBAction)myValChangeSeg:(UISegmentedControl *)sender
 {
@@ -32,6 +47,7 @@ switch ([ctrl selectedSegmentIndex])
 
 }
 
+>>>>>>> beta001
 }
 
 - (void)viewDidLoad
